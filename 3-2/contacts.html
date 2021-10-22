@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang = 'fa'>
+
+    <head>
+        <title>تماس با ما</title>
+        <meta charset: "utf-8">
+        <style>
+            :lang(fa){
+                direction : rtl ;
+            }
+            input {
+                width:  40%;
+                height: 30px;
+
+            }
+            textarea{
+                width: 40%;
+                height: 60px;
+            }
+            button{
+                width:  40%;
+                height: 20px;
+            }
+            form{
+                text-align: center;
+                font-size: large;
+                border:2px dotted red;
+                margin: 1px 2px 3px 4px;
+                padding: 1cm;
+                background-color: thistle;
+            }
+        </style>
+
+    </head>
+
+    <body>
+    <form>
+        <h1>تماس با ما</h1>
+        <label for ="onvan" > عنوان: </label>
+        <br>
+        <input  type="text" id="onvan">
+
+        <br>
+        <label for ="email">ایمیل:</label>
+        
+        <br>
+        <input type="email" id="email" placeholder="مثال:example@abc.com">
+        <br>
+        <label for="tel">شماره تماس:</label>
+        <br>
+        <input type="tel" id="tel" >
+        <br>
+        <label for="textbody">متن پیام: </label>
+        <br>
+        <textarea id="textbody">باسلام</textarea>
+        <br>
+        <input type="submit" value="ثبت درخواست" >
+    </form>
+    </body>
+
+</html>
+
